@@ -21,7 +21,7 @@ function createPhoneNumber(arr) {
     if (len === 11) {
         // 이전 head 의 변수값이 '(010)' 으로 완성이 되어있기 때문에 바뀐 head 의 값도 같은 방식으로 만들어져있어야 리턴값을 한꺼번에 조종할수 있다
         head = `(${arr.slice(0, 3).join('')})` // slice 메소드는 해당입력값의 앞전까지만 불러온다
-        //왜안되는겨
+
     }
     // 
     // head + first + last
