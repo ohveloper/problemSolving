@@ -9,9 +9,9 @@ function makeMarginalString(str) {
   return result;
 }
 
-// f
-// fl
-// flo
-// flow
-// flowe
-// flower
+// f       0
+// fl 0     1
+// flo 01    2
+// flow 012   3
+// flowe 0123  4
+// flower 01234 5
